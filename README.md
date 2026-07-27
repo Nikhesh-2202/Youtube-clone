@@ -133,6 +133,6 @@ This project is created solely for educational purposes. It is not affiliated wi
 
 **Nikhesh Pasupuleti**
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Nikhesh-2202
 
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+LinkedIn: https://www.linkedin.com/in/nikhesh-pasupuleti-34a741332/
