@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 55px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(190, 190, 190);
+  z-index: 10;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo {
+  height: 24px;
+}
+.middle {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 100px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  font-size: 16px;
+  font-family: "Roboto", Arial;
+  flex: 1;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 2px;
+  /* using multiple lines
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);*/
+
+  /* using a single line(css shortcuts)*/
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search-btn {
+  width: 60px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(175, 175, 175);
+}
+.search-img {
+  height: 24px;
+}
+.voice-btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(175, 175, 175);
+}
+.voice-img {
+  height: 24px;
+}
+.right {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+.icon {
+  height: 24px;
+}
+.profile-logo {
+  width: 34px;
+  border-radius: 50%;
+}
+.notifications {
+  position: relative;
+}
+.number3 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50%;
+  font-size: 11px;
+  top: -3px;
+  right: -3px;
+}
+.search-btn,
+.voice-btn,
+.upload-div {
+  position: relative;
+  cursor: pointer;
+}
+.search-btn .tool-tip,
+.voice-btn .tool-tip,
+.upload-div .tool-tip {
+  position: absolute;
+  bottom: -28px;
+  background-color: grey;
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.search-btn:hover .tool-tip,
+.voice-btn:hover .tool-tip,
+.upload-div:hover .tool-tip {
+  opacity: 1;
+}
