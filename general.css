@@ -9,3 +9,66 @@ body {
 p {
   margin-top: 0;
 }
+
+/* Dark Mode Theme */
+body.dark-theme {
+  background-color: #0f0f0f;
+  color: #f1f1f1;
+}
+
+/* SVG Icons Visibility (Inverts dark icons to white) */
+body.dark-theme img,
+body.dark-theme .icon,
+body.dark-theme .menu,
+body.dark-theme .search-img,
+body.dark-theme .voice-img,
+body.dark-theme .sidebar-item img {
+  filter: invert(1);
+}
+
+/* Prevent Videos, Thumbnails, and Channel Photos from Inverting */
+body.dark-theme .thumbnail,
+body.dark-theme .pro,
+body.dark-theme .profile-logo,
+body.dark-theme video,
+body.dark-theme .logo {
+  filter: none !important;
+}
+
+/* Header & Navigation Elements */
+body.dark-theme .header,
+body.dark-theme .sidebar {
+  background-color: #0f0f0f;
+  border-color: #272727;
+}
+
+/* Search Bar & Buttons */
+body.dark-theme .search-bar {
+  background-color: #121212;
+  border: 1px solid #303030;
+  color: #f1f1f1;
+}
+
+body.dark-theme .search-btn {
+  background-color: #222222;
+  border: 1px solid #303030;
+}
+
+body.dark-theme .voice-btn {
+  background-color: #272727;
+}
+
+/* Typography Hierarchy */
+body.dark-theme .p1,
+body.dark-theme .sidebar-item {
+  color: #f1f1f1;
+}
+
+body.dark-theme .p2,
+body.dark-theme .p3 {
+  color: #aaa;
+}
+
+body.dark-theme .sidebar-item:hover {
+  background-color: #272727;
+}

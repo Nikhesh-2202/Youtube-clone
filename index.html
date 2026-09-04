@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="sidebar.css" />
-    <title>Youtube</title>
+    <title>Youtube-clone</title>
   </head>
   <body>
     <!--Header-->
@@ -33,6 +33,13 @@
         </button>
       </div>
       <div class="right">
+        <button
+          id="theme-toggle"
+          class="theme-btn"
+          title="Toggle Light/Dark Theme"
+        >
+          🌙
+        </button>
         <div class="upload-div">
           <img class="icon" src="icons/upload.svg" alt="" />
           <div class="tool-tip">upload</div>
@@ -84,19 +91,20 @@
       <section class="grid">
         <div class="box">
           <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+            <img class="thumbnail" src="thumbnails/yeshanagula.webp" />
             <div class="time">14:20</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-1.jpeg" alt="" />
+              <img class="pro" src="profiles/saregama.jpg" alt="" />
             </div>
             <div class="text">
               <p class="p1">
-                Talking Tech and AI with Google CEO Sundar Pichai!
+                Yeshanagula | The Paradise | Nani | Keerthy Suresh | Anirudh
+                Ravichander | Srikanth Odela
               </p>
-              <p class="p2">Marques Brownlee</p>
-              <p class="p3">3.4M views · 6 months ago</p>
+              <p class="p2">Saregama Telugu</p>
+              <p class="p3">58m views · 6 days ago</p>
             </div>
           </div>
         </div>
@@ -276,5 +284,13 @@
         </div>
       </section>
     </main>
+
+    <div id="video-modal" class="modal-overlay">
+      <div class="modal-content">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <video id="modal-video" controlsList="nodownload" controls></video>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
