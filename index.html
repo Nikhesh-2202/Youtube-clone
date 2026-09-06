@@ -8,6 +8,11 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="video.css" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="header.css" />
@@ -34,11 +39,11 @@
       </div>
       <div class="right">
         <button
-          id="theme-toggle"
-          class="theme-btn"
-          title="Toggle Light/Dark Theme"
+          id="themeToggle"
+          class="theme-toggle"
+          aria-label="Toggle light and dark theme"
         >
-          🌙
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
         </button>
         <div class="upload-div">
           <img class="icon" src="icons/upload.svg" alt="" />
@@ -90,9 +95,12 @@
     <main>
       <section class="grid">
         <div class="box">
-          <div class="thumb">
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/JqFzhcWo3EU?si=GOhfl1KEQxanHhuC"
+          >
             <img class="thumbnail" src="thumbnails/yeshanagula.webp" />
-            <div class="time">14:20</div>
+            <div class="time">3:12</div>
           </div>
           <div class="pro-text">
             <div class="profile">
@@ -104,191 +112,255 @@
                 Ravichander | Srikanth Odela
               </p>
               <p class="p2">Saregama Telugu</p>
-              <p class="p3">58m views · 6 days ago</p>
+              <p class="p3">63M views · 6 days ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" />
-            <div class="time">09:13</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/I4CLMIymCHM?si=b9WTIItOVsmBkcK1"
+          >
+            <img class="thumbnail" src="thumbnails/Thar_Rox.webp" />
+            <div class="time">20:16</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-3.jpeg" alt="" />
-            </div>
-            <div class="text">
-              <p class="p1">Crazy Tik Toks Taken Moments Before DISASTER</p>
-              <p class="p2">SSSniperWolf</p>
-              <p class="p3">12M views · 1 year ago</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" />
-            <div class="time">22:09</div>
-          </div>
-          <div class="pro-text">
-            <div class="profile">
-              <img class="pro" src="profiles/channel-4.jpeg" alt="" />
+              <img class="pro" src="profiles/prasadAutomobile.jpg" alt="" />
             </div>
             <div class="text">
               <p class="p1">
-                The Simple Math Problem No One Can Slove - Collatz Conjecture
+                Mahindra Thar Roxx Review || In Telugu || Prasad Automobile
               </p>
-              <p class="p2">Veritasium</p>
-              <p class="p3">18M views · 4 monnths ago</p>
+              <p class="p2">PrasadAutomobile</p>
+              <p class="p3">1.1M views · 1 year ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
-            <div class="time">11:17</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/8Hj9EmzncEI?si=SVZF5n9p-Z_-8jP8"
+          >
+            <img class="thumbnail" src="thumbnails/Desert_eagle.webp" />
+            <div class="time">11:29</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-5.jpeg" alt="" />
+              <img class="pro" src="profiles/mbg.jpg" alt="" />
             </div>
             <div class="text">
               <p class="p1">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
+                BR Ranked Loki Desert Eagle Ochesindhaa...?? 🤯🔥 - Free Fire
+                Telugu - MBG ARMY
               </p>
-              <p class="p2">CS Dojo</p>
-              <p class="p3">519k views ·5 years ago</p>
+              <p class="p2">MBG ARMY</p>
+              <p class="p3">33K views · 6 hours ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
-            <div class="time">19:59</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/YWqla0UX-38?si=W4FPr-OFUx1pKYBL"
+          >
+            <img class="thumbnail" src="thumbnails/AVL_tree.webp" />
+            <div class="time">24:30</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-6.jpeg" alt="" />
+              <img class="pro" src="profiles/jenny_lectures.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Anythinng You Can Fit In The Circle I'll Pay For</p>
-              <p class="p2">MrBeast</p>
-              <p class="p3">141M views · 1 years ago</p>
+              <p class="p1">
+                5.13 AVL Tree - Insertion, Rotations(LL, RR, LR, RL) with
+                Example | Data Structure Tutorials
+              </p>
+              <p class="p2">Jenny's Lectures CS IT</p>
+              <p class="p3">1.9M views ·7 years ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-7.webp" />
-            <div class="time">10:13</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/zl5GLCA-cfc?si=JRYmN2L8c6Is_UJq"
+          >
+            <img class="thumbnail" src="thumbnails/Aizen.webp" />
+            <div class="time">0:54</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-7.jpeg" alt="" />
+              <img class="pro" src="profiles/aizen.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">Aizen 𝐁𝐔𝐓 He's Free Again [Edit/AMV] 4K!</p>
+              <p class="p2">RYNN 影</p>
+              <p class="p3">163k views · 1 years ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-8.webp" />
-            <div class="time">14:22</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/nMtOA4ffVyk?si=s-LXFfywaLeDALoV"
+          >
+            <img class="thumbnail" src="thumbnails/pandas.webp" />
+            <div class="time">1:43:10</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-8.jpeg" alt="" />
+              <img class="pro" src="profiles/collegeCoders.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">
+                Pandas Full Course in Telugu | Complete Data Analysis Course
+                with IPL Project | AI ML Series
+              </p>
+              <p class="p2">College Coders</p>
+              <p class="p3">5.4k views · 2 months ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-9.webp" />
-            <div class="time">12:45</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/irVNGjRFZGk?si=aEodPkHyK8fdfexe"
+          >
+            <img class="thumbnail" src="thumbnails/Marvel_Doomsday.webp" />
+            <div class="time">2:26</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-9.jpeg" alt="" />
+              <img class="pro" src="profiles/marvel.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">
+                Avengers: Doomsday | Official Trailer | In Theaters December 18
+              </p>
+              <p class="p2">Marvel Entertainment</p>
+              <p class="p3">71M views · 1 month ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-10.webp" />
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/FbXOsVByKmk?si=9yaWqkB2LPhFbPF1"
+          >
+            <img class="thumbnail" src="thumbnails/FireStorm.webp" />
+            <div class="time">4:06</div>
+          </div>
+          <div class="pro-text">
+            <div class="profile">
+              <img class="pro" src="profiles/Sony_music.jpg" alt="" />
+            </div>
+            <div class="text">
+              <p class="p1">
+                They Call Him OG - Firestorm Lyric Video | Pawan Kalyan |
+                Sujeeth | Thaman S | DVV Danayya
+              </p>
+              <p class="p2">Sony Music South</p>
+              <p class="p3">76M views · 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/7yNvsFrwpp0?si=-U0Au7D0mziPJc27"
+          >
+            <img class="thumbnail" src="thumbnails/Mcp_Api.webp" />
             <div class="time">14:20</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-10.jpeg" alt="" />
+              <img class="pro" src="profiles/mcp_api.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">
+                MCP vs API Explained: Do We Still Need API After MCP?
+              </p>
+              <p class="p2">Cloud X Berry</p>
+              <p class="p3">122K views · 4 weeks ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-11.webp" />
-            <div class="time">09:19</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/Wvv6wfWQlLM?si=GJ46KWB2Q84imU8H"
+          >
+            <img class="thumbnail" src="thumbnails/Robot_phone.webp" />
+            <div class="time">10:48</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-11.jpeg" alt="" />
+              <img class="pro" src="profiles/prasadtech_Telugu.jpg" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">
+                HONOR Robot Phone Is INSANE 😳🤯 | A Real-Life SCI-FI Phone!🥳
+              </p>
+              <p class="p2">Prasadtechintelugu</p>
+              <p class="p3">1M views · 5 days ago</p>
             </div>
           </div>
         </div>
 
         <div class="box">
-          <div class="thumb">
-            <img class="thumbnail" src="thumbnails/thumbnail-12.webp" />
-            <div class="time">14:20</div>
+          <div
+            class="thumb"
+            data-video-src="https://youtu.be/6aOtnyL40X8?si=cojKto4Uy8sKxyvP"
+          >
+            <img class="thumbnail" src="thumbnails/sudhakar_Atchala.webp" />
+            <div class="time">15:56</div>
           </div>
           <div class="pro-text">
             <div class="profile">
-              <img class="pro" src="profiles/channel-12.jpeg" alt="" />
+              <img class="pro" src="profiles/sudhakar.webp" alt="" />
             </div>
             <div class="text">
-              <p class="p1">Why Planes Don't Fly Over Tibet</p>
-              <p class="p2">RealLifeLore</p>
-              <p class="p3">6.6M views · 1 years ago</p>
+              <p class="p1">
+                Converting NFA to DFA || Equivalence of DFA and NFA || Theory of
+                Computation || TOC || FLAT
+              </p>
+              <p class="p2">Sudhakar Atchala</p>
+              <p class="p3">672K views · 4 years ago</p>
             </div>
           </div>
         </div>
       </section>
     </main>
 
+    <!-- Video Pop-Up Player -->
     <div id="video-modal" class="modal-overlay">
       <div class="modal-content">
         <span id="close-modal" class="close-btn">&times;</span>
-        <video id="modal-video" controlsList="nodownload" controls></video>
+        <div class="video-container">
+          <iframe
+            id="modal-video"
+            src=""
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
