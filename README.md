@@ -4,9 +4,7 @@ A responsive YouTube homepage clone built using **HTML, CSS, and JavaScript**. I
 
 The project includes a YouTube-style navigation bar, sidebar, search bar, video grid, responsive layout, dark/light theme, and a video player popup.
 
-# Live Demo
-
-[View the YouTube Clone](https://youtube-clone-pied-delta.vercel.app/)
+🌐 Live Demo: [https://youtube-clone-pied-delta.vercel.app/](https://youtube-clone-pied-delta.vercel.app/)
 
 ## Preview
 
