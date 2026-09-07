@@ -1,47 +1,39 @@
 # YouTube Clone
 
-A fully responsive YouTube homepage clone built using **HTML5** and **CSS3**. This project recreates the YouTube user interface while following modern web development practices such as semantic HTML, Flexbox, CSS Grid, and responsive design.
+A responsive YouTube homepage clone built using **HTML, CSS, and JavaScript**. I created this project to practice building real-world web interfaces and to understand how different frontend concepts work together.
 
-> **Note:** This project was created for learning purposes by following web development tutorials and implementing the concepts independently. Images, icons, and thumbnails are sourced from publicly available resources and are used for educational purposes only.
-
----
+The project includes a YouTube-style navigation bar, sidebar, search bar, video grid, responsive layout, dark/light theme, and a video player popup.
 
 ## Preview
 
-![YouTube Clone](screenshot.png)
+![YouTube Clone](Video.mp4)
 
 ---
 
 ## Features
 
-- Fully Responsive Design
-- Semantic HTML5 Structure
-- Modern CSS3 Styling
-- Flexbox Layout
-- CSS Grid Layout
-- Responsive Navigation Bar
-- Responsive Sidebar
-- Video Grid Layout
-- Search Bar UI
-- Hover Effects
-- Clean Folder Structure
-- Optimized Image Assets
-
----
+- Responsive design for desktop, tablet, and mobile
+- YouTube-style header, sidebar, and video grid
+- Search bar UI
+- Dark and light theme toggle
+- Theme preference saved using localStorage
+- Click on a video thumbnail to open and play the video
+- YouTube video embedding inside a popup
+- Hover effects and interactive elements
+- Semantic HTML structure
+- Organized CSS files for different sections
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- CSS Flexbox
+- JavaScript
+- Flexbox
 - CSS Grid
-- Semantic HTML Elements
-- SVG Icons
-- PNG Images
-- JPEG Images
-- WEBP Images
-
----
+- Media Queries
+- DOM Manipulation
+- Local Storage
+- YouTube Embed
 
 ## Folder Structure
 
@@ -56,78 +48,31 @@ youtube-clone/
 ├── header.css
 ├── sidebar.css
 ├── video.css
+├── script.js
 │
 ├── index.html
 ├── screenshot.png
 └── README.md
 ```
 
----
-
-## Semantic HTML Elements Used
-
-This project uses semantic HTML elements to improve accessibility, readability, and SEO.
-
-Examples include:
-
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<button>`
-- `<figure>`
-- `<img>`
-
----
-
-## Responsive Design
-
-The website is fully responsive and adapts to different screen sizes including:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
-Media queries are used to ensure an optimal user experience across all devices.
-
----
-
 ## What I Learned
 
-During this project, I gained practical experience with:
+While building this project, I got hands-on experience with responsive layouts, Flexbox, CSS Grid, JavaScript DOM manipulation, event handling, localStorage, theme switching, and embedding YouTube videos.
 
-- Building responsive layouts
-- CSS Flexbox
-- CSS Grid
-- Semantic HTML
-- Media Queries
-- CSS Positioning
-- Image Optimization
-- Organizing CSS into multiple files
-- Creating reusable UI components
-- Replicating real-world website layouts
-
----
+It also helped me understand how a real-world website can be broken down into smaller reusable sections and styled using separate CSS files.
 
 ## Future Improvements
 
-- Add JavaScript functionality
-- Implement Dark Mode
-- Search Functionality
-- Sidebar Toggle
-- Video Playback Page
-- API Integration using YouTube Data API
-- Loading Animations
-
----
+- Functional search
+- Sidebar toggle for mobile
+- Video recommendations
+- Like and comment functionality
+- YouTube Data API integration
+- User authentication
 
 ## Disclaimer
 
-This project is created solely for educational purposes. It is not affiliated with or endorsed by YouTube. All logos, icons, images, and trademarks belong to their respective owners.
-
----
+This project is created for educational purposes and is not affiliated with or endorsed by YouTube. All logos, images, icons, videos, and trademarks belong to their respective owners.
 
 ## Author
 
