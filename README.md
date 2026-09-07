@@ -4,9 +4,11 @@ A responsive YouTube homepage clone built using **HTML, CSS, and JavaScript**. I
 
 The project includes a YouTube-style navigation bar, sidebar, search bar, video grid, responsive layout, dark/light theme, and a video player popup.
 
-### Demo
+## Preview
 
-<video src="./Demo/Video.mp4" controls width="800"></video>
+[![YouTube Clone Demo](screenshot.png)](https://drive.google.com/file/d/1442C6TS5-W1AAB7cfoty1QpVKjBuvuJd/view?usp=sharing)
+
+Click the preview image to watch the demo.
 
 ## Features
 
